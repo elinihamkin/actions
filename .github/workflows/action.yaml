@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-    - run: echo "${{ secrets.db_root_password }}" > db_root_password
+    - run: echo "${{ secrets.DB_ROOT_PASSWORD }}" > db_root_password
     - run: docker compose up
