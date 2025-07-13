@@ -1,4 +1,4 @@
-ervices:
+services:
  mysql_db:
   image: mysql
   container_name: db_name
