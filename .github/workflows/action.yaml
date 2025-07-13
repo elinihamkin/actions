@@ -8,6 +8,8 @@ jobs:
   buils-and-test:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
     - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
     - run: echo "${{ secrets.DB_ROOT_PASSWORD }}" > db_root_password
     - run: docker compose up
