@@ -7,4 +7,4 @@ jobs:
 
     jobs:
     - name: print vnv test1
-      run: echo $test1
+      run: echo $TEST1
