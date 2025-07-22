@@ -8,4 +8,4 @@ jobs:
 
     steps:
     - name: print vnv test1
-      run: echo ${{ env.TEST1 }}
+      run: echo ${{ vars.TEST1 }}
