@@ -6,6 +6,6 @@ jobs:
   test:
     runs-on: ubutntu-latest
 
-    jobs:
+    steps:
     - name: print vnv test1
       run: echo $TEST1
